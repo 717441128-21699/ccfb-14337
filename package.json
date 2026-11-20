@@ -1,0 +1,22 @@
+{
+  "name": "life-sim-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "养成类文字游戏的日程与事件调度系统:优先级仲裁、可配置顺延、角色作息重排",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:perf": "vitest run tests/perf.test.ts",
+    "dev": "vite",
+    "build:web": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "happy-dom": "^15.11.7",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8"
+  }
+}
